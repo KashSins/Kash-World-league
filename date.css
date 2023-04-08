@@ -1,0 +1,60 @@
+*{
+    box-size:border-box;
+       background-color:grey;
+       padding:0px;
+       margin:0px;
+   }
+   header{
+       display:flex;
+       justify-content: flex-end;
+       padding:30px 10%;
+       align-items:center;
+   
+   }
+   .nav_links a:hover{
+       transition: ease 0.4s all 0s;
+   }
+   .nav_links{
+       list-style:none;
+   }
+   li a button{
+       font-weight: 500;
+   font-size:16px;
+   font-family:sans-serif;
+   color: gold;
+   }
+   button:hover{
+   background-color:gold;
+   }
+   button{
+       border:none;
+       border-radius:50px;
+       cursor:pointer;
+   padding:10px 30px;
+   transition:ease 0.4s all 0s;
+   }
+     .nav_links li a:hover{
+       transition:ease 0.4s all 0s;
+     color:pink;
+    }
+    .nav_links li{
+       display:inline-block;
+       padding:0px 20px;
+       color: pink;
+    }
+    li:hover{
+       transition:ease-in-out;
+       border: 3px solid pink;
+       background-color:black;
+       cursor:pointer;
+    }
+    .Logo{
+        padingg:0;
+        margin:0;
+        align-items: center;
+        justify-content: center;
+
+    }
+    a{
+        color: gold;
+    }
